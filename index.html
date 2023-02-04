@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Payment buttons</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Payment Options</h1>
+    <div class="payment-buttons">
+      <button id="pay-rupee" class="neumorphic">
+        <div class="inner">Pay Rs 10</div>
+      </button>
+      <button id="pay-eth" class="neumorphic">
+        <div class="inner">Pay 1 ETH</div>
+      </button>
+    </div>
+  </body>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@metamask/detect@0.4.4/dist/detect.min.js"></script>
+
+  <script src="app.js"></script>
+</html>
